@@ -13,8 +13,8 @@ services:
       - traefik.http.routers.open-suite.rule=Host(`ff3.dev01.minhtuanvu.com`)
       - traefik.http.routers.open-suite.entrypoints=websecure
       - traefik.http.routers.open-suite.tls.certresolver=myresolver
-    depends_on:
-      - fireflyiiidb
+    # depends_on:
+    #   - fireflyiiidb
     networks:
       - public
       - db
