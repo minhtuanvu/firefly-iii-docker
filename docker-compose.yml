@@ -17,7 +17,7 @@ services:
     #   - fireflyiiidb
     networks:
       - public
-      - db
+      # - db
     restart: always
   # fireflyiiidb:
   #   image: yobasystems/alpine-mariadb:latest
